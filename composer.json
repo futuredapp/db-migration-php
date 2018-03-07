@@ -1,0 +1,13 @@
+{
+    "name": "thefuntasty/db-migration-php",
+    "description": "Basic database migrations",
+    "type": "library",
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^7.0",
+        "nette/database": "^2.4"
+    },
+    "autoload": {
+        "classmap": ["src/"]
+    }
+}

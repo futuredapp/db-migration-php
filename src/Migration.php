@@ -99,7 +99,7 @@ final class Migration
     private function createMigrationTable()
     {
         $this->context->query('
-            CREATE TABLE IF NOT EXISTS `?` (
+            CREATE TABLE IF NOT EXISTS ?name (
             `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
             `number` int(10) unsigned NOT NULL,
             `file` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
